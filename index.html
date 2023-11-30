@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favourite music is here</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songlist">
+        <h1>Best of NCS - No Copyright Sound</h1>
+        <div class="songitemcontainer">
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timespan"
+                >05:34
+                <i
+                  id="0"
+                  class="fa-solid songitemplay fa-1x fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timespan"
+                >05:34
+                <i
+                  id="1"
+                  class="fa-solid songitemplay fa-1x fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timespan"
+                >05:34
+                <i
+                  id="2"
+                  class="fa-solid songitemplay fa-1x fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timespan"
+                >05:34
+                <i
+                  id="3"
+                  class="fa-solid songitemplay fa-1x fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timespan"
+                >05:34
+                <i
+                  id="4"
+                  class="fa-solid songitemplay fa-1x fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timespan"
+                >05:34
+                <i
+                  id="5"
+                  class="fa-solid songitemplay fa-1x fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+          <div class="songitem">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname"></span>
+            <span class="songlistplay"
+              ><span class="timespan"
+                >05:34
+                <i
+                  id="6"
+                  class="fa-solid songitemplay fa-1x fa-circle-play"
+                ></i></span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+      <input
+        type="range"
+        min="0"
+        value="0"
+        max="100"
+        name="range"
+        id="myprogressbar"
+      />
+      <div class="icons">
+        <i class="fa-solid fa-2x fa-step-backward" id="backward"></i>
+        <i class="fa-solid fa-2x fa-circle-play" id="masterplay"></i>
+        <i class="fa-solid fa-2x fa-step-forward" id="forward"></i>
+      </div>
+      <div class="songinfo">
+        <img src="playing.gif" alt="gif" id="gif" /><span id="msong"
+          >salame ishq</span
+        >
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
