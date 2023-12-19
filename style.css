@@ -130,3 +130,36 @@ nav ul li {
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .brand {
+        font-size: 0.9rem;
+    }
+
+    .songitem img {
+        width: 32px;
+        margin: 0 10px;
+    }
+
+    .timespan,
+    .songinfo {
+        margin: 0 10px;
+    }
+
+    .bottom {
+        height: auto;
+    }
+
+    #myprogressbar {
+        width: 100%;
+    }
+
+    .songinfo {
+        left: 0;
+    }
+}
